@@ -40,6 +40,10 @@
                           <input type="number" class="form-control" id="" placeholder="6">
                         </div>
                         <div class="form-group">
+                          <label for="exampleInputEmail1">Clave INE</label>
+                          <input type="number" class="form-control" id="" placeholder="xxxxxxxxxxx">
+                        </div>
+                        <div class="form-group">
                           <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
                           <small id="fileHelp" class="form-text text-muted">Adjunta una foto de alguna identificación con foto para verificar tu domicilio<small>
                         </div>

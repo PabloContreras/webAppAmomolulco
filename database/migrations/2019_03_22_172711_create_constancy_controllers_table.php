@@ -13,8 +13,16 @@ class CreateConstancyControllersTable extends Migration
      */
     public function up()
     {
-        Schema::create('constancy_controllers', function (Blueprint $table) {
+        Schema::create('constancies', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->String('nombre');
+            $table->String('ap_p');
+            $table->String('ap_m');
+            $table->String('domicilio');
+            $table->String('tiempo_habitado');
+            $table->String('clave_ine');
+            $table->String('correo_electronico');
+            $table->String('telefono');
             $table->timestamps();
         });
     }
@@ -26,6 +34,6 @@ class CreateConstancyControllersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('constancy_controllers');
+        Schema::dropIfExists('constancies');
     }
 }
