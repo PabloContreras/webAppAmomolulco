@@ -10,4 +10,7 @@ class constancyController extends Model
 
     	return view('constancyForm');
     }
+    public function store(Request $request){
+
+    }
 }

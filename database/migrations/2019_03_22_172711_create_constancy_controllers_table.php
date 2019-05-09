@@ -23,6 +23,7 @@ class CreateConstancyControllersTable extends Migration
             $table->String('clave_ine');
             $table->String('correo_electronico');
             $table->String('telefono');
+            $table->Integer('user_id')->nullable();
             $table->timestamps();
         });
     }

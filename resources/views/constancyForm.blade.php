@@ -16,7 +16,7 @@
                         
                         <div class="form-group">
                           <label for="exampleInputEmail1">Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@dominio.com">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@dominio.com" name="correoElectronico">
                           <small id="emailHelp" class="form-text text-muted">Por este medio te avisaremos el estatus de tu constancia</small>
                         </div>
                         <div class="form-group">
